@@ -37,8 +37,8 @@ const MovieListComponent = (props) => {
       <MovieImage src={Poster}></MovieImage>
       <MovieName>{Title}</MovieName>
       <MovieInfo>
-        {Year ? <span>Year: {Year}</span> : <></>}
-        {Type ? <span>Type: {Type}</span> : <></>}
+        {Year && <span>Year: {Year}</span>}
+        {Type && <span>Type: {Type}</span>}
       </MovieInfo>
     </MovieContainer>
   );

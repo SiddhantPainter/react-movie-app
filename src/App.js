@@ -230,10 +230,10 @@ function App() {
     <Container>
       <Header>
         <AppName>
-          <AppIcon src="/icon.png"></AppIcon>Movie Info App
+          <AppIcon src="https://img.icons8.com/cinema"></AppIcon>Movie Info App
         </AppName>
         <SearchBox>
-          <SearchIcon src="/search-icon.png"></SearchIcon>
+          <SearchIcon src="https://img.icons8.com/search"></SearchIcon>
           <SearchInput
             placeholder="Search Movie Name"
             value={searchString}

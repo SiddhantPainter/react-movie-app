@@ -37,9 +37,9 @@ const OnLoadMovieList = (props) => {
       <MovieImage src={image}></MovieImage>
       <MovieName>{title}</MovieName>
       <MovieInfo>
-        <span>Year: {year}</span>
-        <span>Rank: {rank}</span>
-        <span>IMDB Rating: {imDbRating}</span>
+        {year && <span>Year: {year}</span>}
+        {rank && <span>Rank: {rank}</span>}
+        {imDbRating && <span>IMDB Rating: {imDbRating}</span>}
       </MovieInfo>
     </MovieContainer>
   );
